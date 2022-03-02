@@ -238,14 +238,14 @@ select {
 }
 
 .top {
-  background: no-repeat url("/img/prof_ed_background.jpg") #F2F8FC;
+  background: no-repeat url("../img/prof_ed_background.jpg") #F2F8FC;
   background-size: cover;
   position: relative;
   z-index: 1;
 }
 .top::before {
   content: "";
-  background: url("/img/header_obj-2.png") no-repeat;
+  background: url("../img/header_obj-2.png") no-repeat;
   position: absolute;
   width: 23.75rem;
   height: 37.75rem;
@@ -255,7 +255,7 @@ select {
 }
 .top::after {
   content: "";
-  background: url("/img/header_obj-1.png") no-repeat;
+  background: url("../img/header_obj-1.png") no-repeat;
   position: absolute;
   width: 26.1875rem;
   height: 13rem;
@@ -325,7 +325,7 @@ select {
 }
 .opportunities__item:first-child::after {
   content: "";
-  background: url("/img/opportunities_obj-1.png") no-repeat;
+  background: url("../img/opportunities_obj-1.png") no-repeat;
   position: absolute;
   width: 25.5rem;
   height: 24.4375rem;
@@ -335,7 +335,7 @@ select {
 }
 .opportunities__item:last-child::after {
   content: "";
-  background: url("/img/opportunities_obj-2.png") no-repeat;
+  background: url("../img/opportunities_obj-2.png") no-repeat;
   position: absolute;
   width: 25.5rem;
   height: 25.4375rem;
@@ -369,7 +369,7 @@ select {
 }
 .partners::after {
   content: "";
-  background: url("/img/points_obj.png") no-repeat;
+  background: url("../img/points_obj.png") no-repeat;
   position: absolute;
   width: 26.25rem;
   height: 28.4375rem;
@@ -406,7 +406,7 @@ select {
 
 .partners__item-1::before {
   content: "";
-  background: url("/img/partners_logo.png") no-repeat;
+  background: url("../img/partners_logo.png") no-repeat;
   position: absolute;
   width: 9.375rem;
   height: 5rem;
@@ -416,7 +416,7 @@ select {
 
 .partners__item-2::before {
   content: "";
-  background: url("/img/partners_logo.png") no-repeat;
+  background: url("../img/partners_logo.png") no-repeat;
   background-position: -190px 0;
   position: absolute;
   width: 10rem;
@@ -427,7 +427,7 @@ select {
 
 .partners__item-3::before {
   content: "";
-  background: url("/img/partners_logo.png") no-repeat;
+  background: url("../img/partners_logo.png") no-repeat;
   background-position: -393px 0;
   position: absolute;
   width: 9.375rem;
@@ -438,7 +438,7 @@ select {
 
 .partners__item-4::before {
   content: "";
-  background: url("/img/partners_logo.png") no-repeat;
+  background: url("../img/partners_logo.png") no-repeat;
   background-position: -604px 0;
   position: absolute;
   width: 9.375rem;
@@ -449,7 +449,7 @@ select {
 
 .partners__item-5::before {
   content: "";
-  background: url("/img/partners_logo.png") no-repeat;
+  background: url("../img/partners_logo.png") no-repeat;
   background-position: -800px 0;
   position: absolute;
   width: 9.375rem;
@@ -460,7 +460,7 @@ select {
 
 .partners__item-6::before {
   content: "";
-  background: url("/img/partners_logo.png") no-repeat;
+  background: url("../img/partners_logo.png") no-repeat;
   background-position: -998px 0;
   position: absolute;
   width: 9.375rem;
@@ -491,7 +491,7 @@ select {
 }
 .courses__text::before {
   content: "";
-  background: url("/img/courses_obj.png") no-repeat;
+  background: url("../img/courses_obj.png") no-repeat;
   position: absolute;
   width: 7.625rem;
   height: 8.3125rem;
@@ -500,7 +500,7 @@ select {
 }
 .courses__text::after {
   content: "";
-  background: url("/img/sertificate_1.png") no-repeat;
+  background: url("../img/sertificate_1.png") no-repeat;
   position: absolute;
   width: 24.625rem;
   height: 17.8125rem;
@@ -538,7 +538,7 @@ select {
 }
 .courses__item::before {
   content: "";
-  background: url("/img/courses_obj-1.png") no-repeat;
+  background: url("../img/courses_obj-1.png") no-repeat;
   position: absolute;
   width: 14.4375rem;
   height: 14.4375rem;
@@ -590,7 +590,7 @@ select {
 }
 .graduates::after {
   content: "";
-  background: url("/img/points_obj.png") no-repeat;
+  background: url("../img/points_obj.png") no-repeat;
   position: absolute;
   width: 26.25rem;
   height: 28.4375rem;
@@ -670,7 +670,7 @@ select {
 }
 .part-of__item::before {
   content: "";
-  background: url("/img/part-of_obj.png") no-repeat;
+  background: url("../img/part-of_obj.png") no-repeat;
   position: absolute;
   width: 9rem;
   height: 12.1875rem;
@@ -730,7 +730,7 @@ select {
 }
 .news::after {
   content: "";
-  background: url("/img/points_obj.png") no-repeat;
+  background: url("../img/points_obj.png") no-repeat;
   position: absolute;
   width: 26.25rem;
   height: 28.4375rem;
