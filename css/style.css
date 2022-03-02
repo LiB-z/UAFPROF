@@ -1983,6 +1983,10 @@ footer {
     text-align: center;
   }
 
+  .graduates::after {
+    display: none;
+  }
+
   .feedback__content a.close-button, .join__content a.close-button {
     top: 0.625rem;
     right: 0.625rem;
@@ -2016,5 +2020,39 @@ footer {
 
   .join__text, .feedback__text {
     font-size: 0.625rem;
+  }
+
+  .new-popup__content {
+    padding: 3.125rem 1.375rem 2.1875rem;
+  }
+
+  .new-popup__title {
+    max-width: 100%;
+    font-size: 2.625rem;
+    line-height: 3rem;
+    text-align: center;
+  }
+
+  .new-popup__content a.close-button {
+    top: 1.0625rem;
+    right: 0.5625rem;
+    margin-bottom: 2rem;
+  }
+
+  .new-popup__text {
+    margin-bottom: 3.0625rem;
+  }
+
+  .new-popup__text p {
+    font-size: 0.825rem;
+    text-align: justify;
+  }
+
+  .new-slide__img img {
+    width: 15.25rem;
+  }
+
+  .new__container .swiper-button-prev, .new__container .swiper-button-next {
+    top: 92.5%;
   }
 }
