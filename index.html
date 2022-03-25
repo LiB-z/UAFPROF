@@ -1,8 +1,11 @@
+<!-- Используй webpack, на проектах больше лендинга в ручном режиме будет невозможно его поддерживать -->
+
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
 		<meta http-equiv="Content-type" content="text/html;charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+		<!-- CSS объединям в один, вебпак это делает автоматически. Каждый файл +1 запрос к серверу, это влияет на проихводительность и в итоге на SEO -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
@@ -10,14 +13,24 @@
 		<title>Professional educational platform</title>
 	</head>
 	<body>
+		<!-- Не хватает хотя бы минимального seo, h1, заголовки секций. -->
 		<div class="wrapper">
-			<header class="header lock-padding">
+			
+			<header class="header lock-padding"> 
+				<!-- Зачем блок, если в нем нет контента и он ни на что не влияет? -->
 			</header>
 			<main class="page">
+				<!-- Секкциям стоит давать более внятные названи, и при необходимости добавлять им модификаторы. Наример, top - непонятно. а "section section--intro" - уже понятно.
+				Хороший материал по теме https://github.com/yoksel/common-words
+				-->
+				
 				<section class="top">
+
+					<!-- У тебя есть Элемент main__container но нет родительского блока main. Это ошибка, если непонятно, как делать, то дроби на большее количество блоков -->
 					<div class="main__container top__container">
 						<div class="top__content">
 							<div class="top__logo">
+								<!-- В лого нет сложных градиентов, его имеет смысл перевести в вектор. Дизайнеры ленивые, но если их покусать, они быстро сделают. -->
 								<img src="img/logo_UAVPROF.png" alt="UAVPROF">
 							</div>
 							<h1 class="title top__title">Professional educational platform for UAV pilots</h1>
@@ -58,7 +71,9 @@
 							Our friends
 						</div>
 						<ul class="partners__list">
+							<!-- Зачем добавлять нумерацию, если они все одинаковые? -->
 							<li class="partners__item partners__item-1">
+								<!-- У тебя вот тут фоном задан логотип. Не нужно так делать. Он должен быть доступен для поиксового бота. Вставляй через img -->
 								<div class="partners__title">DJI</div>
 								<div class="partners__description">Best professional technique</div>
 							</li>
@@ -146,6 +161,7 @@
 					</div>
 				</section>
 				<section class="part-of">
+					<!-- courses__container - та же ошибка, что и выше, когда нет блока, но есть его элемент. -->
 					<div class="main__container courses__container">
 						<div class="title section__title">
 							Be a part of it 
@@ -318,6 +334,7 @@
 						<div class="new__wrapper swiper-wrapper">
 							<div class="swiper-slide">
 								<div class="new-slide__img">
+									<!-- Хороший тон - сделать картинки открывающимимя в модалке. Они мелкие и ничего не видно -->
 									<img src="img/graduates__obj-1.jpg" alt="graduate">
 								</div>
 							</div>
@@ -337,6 +354,7 @@
 								</div>
 							</div>
 						</div>
+						<!-- Кнопки наползают на контент. Либо стоит добавить отступы, либо сделать фон в них. https://prnt.sc/85xl60FoeJJ1 -->
 						<div class="swiper-button-prev"></div>
 						<div class="swiper-button-next"></div>
 					</div>
